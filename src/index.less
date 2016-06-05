@@ -1,0 +1,31 @@
+@import "theme.less";
+
+body {
+  text-rendering: optimizeLegibility;
+  font-family: @font-main;
+  font-size: @fontsize-root;
+}
+
+@media only screen 
+  and (min-device-width : 375px) 
+  and (max-device-width : 667px) {
+  body {
+    font-size: 1.75em;
+  }
+}
+
+code {
+  font-family: @font-code;
+}
+
+blockquote {
+  font-weight: bold;
+}
+
+ul {
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
